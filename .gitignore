@@ -1,0 +1,6 @@
+.arduino
+.vim_runtime
+node_modules
+*.pyc
+dist
+__pycache__

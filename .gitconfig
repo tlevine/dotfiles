@@ -1,0 +1,36 @@
+# https://github.com/alikins/gitconfig/blob/master/gitconfig
+# http://www.draconianoverlord.com/2010/03/04/git-config.html
+[user]
+  name = Thomas Levine
+  email = _@thomaslevine.com
+[push]
+  default = simple
+[core]
+  pager = 
+	excludesfile = ~/.gitignore
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = auto
+[status]
+  relativePaths = false
+[alias]
+  a = add
+  b = branch
+  c = commit
+  co = checkout
+  d  = diff
+  st = status -sb
+[merge]
+  tool = diffuse
+[diff]
+  tool = diffuse
+  suppressBlankEmpty = true
+  mnemonicprefix = true
+[alias]
+  # not a fan of random merges
+  pull = pull --ff-only
+[format]
+  pretty = %C(yellow)%H%Creset %s %C(red)(%an, %cr)%Creset
