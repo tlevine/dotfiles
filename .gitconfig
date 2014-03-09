@@ -3,11 +3,9 @@
 [user]
   name = Thomas Levine
   email = _@thomaslevine.com
-[push]
-  default = simple
 [core]
   pager = 
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 [color]
   diff = auto
   status = auto
