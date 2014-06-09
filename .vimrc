@@ -1,1 +1,0 @@
-/home/tlevine/.dotfiles/public/.vimrc-local
