@@ -1,0 +1,15 @@
+# (sleep 3 && /usr/bin/nm-applet --sm-disable) &
+nm-applet &
+tint2 &
+volumeicon &
+#hsetroot -fill /usr/share/wallpapers/I_believe_in_spring_by_RyoThorn.jpg &
+#clipit &
+conky &
+
+# Enable as required
+#compton -cCGb &
+#xbacklight -set 100 &
+#/usr/bin/synclient TouchpadOff=1 &
+#xxkb &
+#spacefm -d &
+#setxkbmap gb &
