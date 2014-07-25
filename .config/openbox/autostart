@@ -4,7 +4,7 @@ tint2 &
 volumeicon &
 #hsetroot -fill /usr/share/wallpapers/I_believe_in_spring_by_RyoThorn.jpg &
 #clipit &
-conky &
+# conky &
 
 # Enable as required
 #compton -cCGb &
