@@ -11,7 +11,7 @@ own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 own_window_colour black
 double_buffer yes
 minimum_size 1 1
-maximum_width 240
+maximum_width 260
 draw_shades no
 draw_outline no
 draw_borders no
@@ -19,7 +19,7 @@ draw_graph_borders no
 default_color gray
 default_shade_color 000000
 default_outline_color d9d7d6
-alignment tr
+alignment tl
 gap_x 12
 gap_y 12
 no_buffers yes
@@ -32,11 +32,6 @@ color2 gray
 #  Output
 ##############################################
 TEXT
-CPU: $alignr${cpu cpu0}%
-${cpubar cpu0}
-RAM: $alignr$mem/$memmax
-$membar
-
 Super+t$alignr Terminal
 Super+f$alignr File Manager
 Super+e$alignr Editor
@@ -53,3 +48,4 @@ Super+Arrow$alignr Move
 Alt+F3$alignr Dmenu
 Alt+Super+Arrow$alignr Resize
 
+${texeci 120.0 cd ~/git/whom-to-email/ && make conky }
