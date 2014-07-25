@@ -11,7 +11,7 @@ own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 own_window_colour black
 double_buffer yes
 minimum_size 1 1
-maximum_width 260
+maximum_width 800
 draw_shades no
 draw_outline no
 draw_borders no
@@ -48,4 +48,7 @@ Super+Arrow$alignr Move
 Alt+F3$alignr Dmenu
 Alt+Super+Arrow$alignr Resize
 
-${texeci 120.0 cd ~/git/whom-to-email/ && make conky }
+Email these people.
+${execi 120.0 cd ~/git/whom-to-email/ && make conky | grep -v ^sed }
+
+${execi 60.0 pal --nocolor}
