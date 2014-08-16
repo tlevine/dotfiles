@@ -31,6 +31,6 @@
   # not a fan of random merges
   pull = pull --ff-only
 [format]
-  pretty = %C(yellow)%H%Creset %s %C(red)(%an, %cr)%Creset
+  pretty = %C(yellow)%H%Creset %s %C(red)(%an, %ci)%Creset
 [push]
 	default = simple
