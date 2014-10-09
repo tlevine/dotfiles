@@ -1,5 +1,5 @@
 syntax on
-
+set noswapfile
 
 " http://stackoverflow.com/a/21323445
 " Only do this part when compiled with support for autocommands.
