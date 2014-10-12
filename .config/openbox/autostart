@@ -2,7 +2,7 @@
 nm-applet &
 tint2 &
 volumeicon &
-hsetroot -fill ~/git/bibliography/introverted.jpg &
+hsetroot -full ~/git/bibliography/introverted.jpg &
 # hsetroot -fill ~/git/tom-pictures/csv-grafitti/wall2.jpg &
 # clipit &
 # conky &
