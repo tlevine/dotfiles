@@ -1,5 +1,6 @@
 syntax on
 set noswapfile
+set number
 
 " http://stackoverflow.com/a/21323445
 " Only do this part when compiled with support for autocommands.
